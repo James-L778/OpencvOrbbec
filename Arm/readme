@@ -1,0 +1,6 @@
+本文件夹用做模拟机械臂抓取物体（sphere已获取物体的三维坐标及球半径），这里假设手眼标定已做，并且机械臂和相机坐标均已转到世界坐标系。以下操作基于ROS+Moveit环境。
+
+1.roslaunch panda_moveit_config demo.launch 启动模拟器RVIZ
+2.运行ArmGrab.py即看到机械臂去固定位置抓取物体
+
+
